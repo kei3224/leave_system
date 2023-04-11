@@ -64,7 +64,8 @@
     <p class="m-0 text-center text-white">Copyright &copy; 
       <?php echo $_settings->info('short_name') ?> <?php echo date('Y'); ?>
     </p>
-    <p class="m-0 text-center text-white">Developed By: <a href="https://www.depedsdo1pangasinan.com/">SDO1 Pangasinan</a></p>
+    <p class="m-0 text-center text-white">Developed By: <a href="https://www.depedsdo1pangasinan.com/">SDO1 Pangasinan</a> </p>
+    <p class="m-0 text-center text-white"><a href="https://www.depedsdo1pangasinan.com/" style="color: #212529;">Developers</a></p>
   </div>
 </footer>
 
