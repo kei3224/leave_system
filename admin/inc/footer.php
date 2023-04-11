@@ -63,6 +63,7 @@
         <!-- <a href=""></a> -->
         </strong>
         All rights reserved.
+        Powered by ICT Unit.
         <div class="float-right d-none d-sm-inline-block">
           <b><?php echo $_settings->info('short_name') ?> (by: <a href="https://www.depedsdo1pangasinan.com/" target="blank">SDO1 Pangasinan</a> )</b> v1.0
         </div>

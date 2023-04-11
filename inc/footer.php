@@ -60,11 +60,13 @@
 </script>
 <!-- Footer-->
 <footer class="py-5 bg-dark">
-            <div class="container">
-              <p class="m-0 text-center text-white">Copyright &copy; <?php echo $_settings->info('short_name') ?> 2023</p>
-              <p class="m-0 text-center text-white">Developed By: <a href="https://www.depedsdo1pangasinan.com/">SDO1 Pangasinan</a></p>
-          </div>
-        </footer>
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; 
+      <?php echo $_settings->info('short_name') ?> <?php echo date('Y'); ?>
+    </p>
+    <p class="m-0 text-center text-white">Developed By: <a href="https://www.depedsdo1pangasinan.com/">SDO1 Pangasinan</a></p>
+  </div>
+</footer>
 
    
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
