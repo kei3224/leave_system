@@ -38,7 +38,7 @@ if(isMobileDevice()):
             <a href="?page=employees/manage_employee&id=<?php echo $id ?>" class="btn btn-flat btn-primary"><span class="fas fa-edit"></span>  Edit Employee</a>
             <?php endif; ?>
             <a href="javascript:void(0)" class="btn btn-flat btn-success ml-3" id="print"><span class="fas fa-print"></span>  Print</a>
-            <a href="" class="btn btn-flat btn-success ml-3" id="print"><span class="fas fa-print"></span>  Generate PDF</a>
+            <!-- <a href="" class="btn btn-flat btn-success ml-3" id="print"><span class="fas fa-print"></span>  Generate PDF</a> -->
         </div>
         <div id="print_out">
         <table class="table info-table">
