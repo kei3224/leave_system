@@ -14,7 +14,6 @@
         include $page.'/index.php';
     else
         include $page.'.php';
-
     }
 ?>
 <?php require_once('inc/footer.php') ?>
