@@ -95,9 +95,8 @@ $is_approver = $meta_qry->num_rows > 0 && $meta_qry->fetch_array()['meta_value']
 										<?php endif; ?>
 										<?php if ($_settings->userdata('type') != 3 || ($row['status'] == '0')) : ?>
 
-											<a class="dropdown-item" href="javascript:void(0)" id="print"><span class="fas fa-print"></span> Generate PDF</a>
+											<a class="dropdown-item generate_pdf" href="javascript:void(0)" data-id="<?php echo $row['id'] ?>"><span class="fas fa-print"></span> Generate PDF</a>
 											<div class="dropdown-divider"></div>
-											
 
 											<a class="dropdown-item" href="?page=leave_applications/manage_application&id=<?php echo $row['id'] ?>"><span class="fa fa-edit text-primary"></span> Edit</a>
 											<div class="dropdown-divider"></div>
@@ -126,6 +125,10 @@ $is_approver = $meta_qry->num_rows > 0 && $meta_qry->fetch_array()['meta_value']
 		$('.update_status').click(function() {
 			uni_modal("<i class='fa fa-check-square'></i> Update Leave Application Status", "leave_applications/update_status.php?id=" + $(this).attr('data-id'))
 		})
+		// $('.generate_pdf').click(function() {
+        //     uni_modal("<i class='fa fa-print'></i> Generate PDF", "leave_applications/generate_pdf.php?id=" + $(this).attr('data-id'))
+        // })
+
 		$('.table').dataTable({
 			columnDefs: [{
 				orderable: false,
